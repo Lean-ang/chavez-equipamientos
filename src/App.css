@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products-navbar{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #ffc107 !important;
+}
+
+.products-navbar .navbar-nav{
+    align-items: start !important;
+    gap: 10px !important;
+    justify-content: center;
+    width: 100%;
+}
+
+#header{
+    text-align: center;
+    background-color: #757575;
+    /* margin-bottom: 20px; */
+}
+
+#header img{
+    width: 200px;
+    height: 200px;
+}
+
+#header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#header div a{
+    color: white;
+    text-decoration: none;
+}
+
+#header .wsp-logo{
+    width: 40px;
+    height: 40px;
+}
+
+main{
+    min-height: calc(100vh - 166px );
+}
+
+#card-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px 0;
+}
+
+.nav-link{
+    margin: 0 10px;
+}
+
+.banner-home{
+    background-color: #ffc107;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.banner-home-img{
+    background-color: #100e16;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-home-img img{
+    width: 80%;
+}
+
+.logo{
+    width: 200px;
+    margin: auto;
+}
+
+#crecimiento{
+    background-color: #dbd9d9;
+    text-align: center;
+    padding: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#crecimiento p{
+    max-width: 900px;
+    margin: auto;
+}
+
+#crecimiento a{
+    width: 200px;
+    margin: auto;
+}
+
+#contacto{
+    display: flex;
+    padding: 10px 0 30px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc107;
+    height: 50px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media(max-width: 654px){
+    #contacto{
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        align-items: start;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    #contacto iframe{
+        width: 100% !important;
+    }
+
+    .banner-home{
+        font-size: 15px;
+    }
+
+    .banner-home-img{
+        width: 100%;
+    }
+}
+

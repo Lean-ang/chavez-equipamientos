@@ -1,0 +1,42 @@
+#catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    /* row-gap: 30px; */
+}
+
+#catalogo h1{
+    margin: 20px 0;
+}
+
+hr{
+    width: 100%;
+}
+
+.catalogo-container{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    row-gap: 25px;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.product-container{
+    margin: 20px 0;
+}
+
+.product-container h1{
+    text-align: initial;
+}
+
+@media(max-width: 1060px){
+    .catalogo-container{
+        justify-content: center;
+    }
+
+    .product-container h2{
+        text-align: center;
+    }
+}

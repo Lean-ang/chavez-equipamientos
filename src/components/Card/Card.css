@@ -1,0 +1,32 @@
+.card{
+    width: 400px;
+    height: 280px;
+    border-color: #ffc107;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 0px;
+}
+
+.card-img-top{
+    width: 100% !important;
+    
+
+}
+
+.link{
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width:600px){
+    .card{
+        width: 300px;
+        height: auto;
+    }
+    .link{
+        width: 100%;
+        height: auto;
+    }
+}

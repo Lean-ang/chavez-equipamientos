@@ -8,6 +8,9 @@ import jardineria from '../../data/jardineria.json'
 import soldadura from '../../data/soldadura.json'
 import NavbarProducts from '../../components/NavbarProducts/NavbarProducts'
 import './Catalogo.css'
+import CarouselComponent from '../../components/Carousel/Carousel'
+import paladino from '../../data/img.json'
+
 
 const Catalogo = () => {
   return (
@@ -72,6 +75,15 @@ const Catalogo = () => {
             {
               jardineria.map(el => (
                 <CardComponent key={el.title} title={el.title} src={el.imageURL} />
+              ))
+            }
+          </div>
+        </section>
+        <section>
+          <div>
+            {
+              paladino.map(el =>(
+                <CarouselComponent key={el.src} />
               ))
             }
           </div>

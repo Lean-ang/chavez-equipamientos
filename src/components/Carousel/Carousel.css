@@ -1,28 +1,10 @@
-.carousel-inner, .carousel-item{
-    height: 100% !important;
+.Carousel{
+    width: 700px;
+    height: 700px;
+
 }
 
-.carousel-img{
-    filter: brightness(50%)
-}
-
-.bg-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/banner.jpg');
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffc107;
-    text-align: center;
-}
-
-.bg-image img{
-    width: 400px;
-    margin-bottom: 10px;
-}
-
-@media(max-width:930px){
-    .bg-image img {
-        width: 300px;
-    }
+.main{
+    margin-top: 50px;
+    
 }

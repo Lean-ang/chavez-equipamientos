@@ -8,3 +8,12 @@
     margin-top: 50px;
     
 }
+
+@media(max-width:600px){
+    .main .Carousel{
+        width: 320px;
+       
+        
+    }
+  
+}

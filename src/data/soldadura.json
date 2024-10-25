@@ -54,9 +54,33 @@
 },
 
 {
+  "title":"ALAMBRE MIG SIN GAS",
+  "imageURL": "https://lh3.googleusercontent.com/d/1MiUy9B-wIhX6AG-IGBzJm5wie7yoqH8I",
+  "category": "Soldadura"
+},
+
+{
   "title": "PINSAS SOLDADORA",
   "imageURL": "https://lh3.googleusercontent.com/d/1Plz5V5iovpcSUPC90xXshCk0yPPp0dmq",
   "category": "Soldadura"
+},
+
+{
+  "title":"ELECTRODO ALUMINIO",
+  "imageURL":"https://lh3.googleusercontent.com/d/1-sjXPoJXOzuenP9OwWjNEAcgsKlVs-Sy",
+  "category":"Soldadura"
+},
+
+{
+  "title":"ELECTRODO FUNDICIÓN",
+  "imageURL":"https://lh3.googleusercontent.com/d/1b6aCBAtLPFMowYbvWdqM9JVmMJ88KnYc",
+  "category":"Soldadura"
+},
+
+{
+  "title":"ELECTRODO TUNGSTENO",
+  "imageURL":"https://lh3.googleusercontent.com/d/14kFZ636Y9Mus76Zt5PT3fbvMY53Otq1E",
+  "category":"Soldadura"
 }
 
 ]
